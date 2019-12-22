@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="DI_T4.jnlp">
+  <information>
+    <title>DI_T4</title>
+    <vendor>hiper</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="DI_T4.jar" size="17961" download="eager" />
+    <jar href="lib\jh.jar" size="508396" download="eager" />
+    <jar href="lib\jhall.jar" size="562749" download="eager" />
+    <jar href="lib\jhbasic.jar" size="380231" download="eager" />
+    <jar href="lib\jsearch.jar" size="166255" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="DI_T4" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="di_t4.DI_T4"  name="DI_T4" />
+  <update check="always"/>
+</jnlp>

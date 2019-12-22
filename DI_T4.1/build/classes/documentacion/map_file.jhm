@@ -1,0 +1,5 @@
+<?xml version= '1.0' encoding= 'UTF-8'?>
+<map version="1.0">
+    <mapID target="GestorDeNotas" url="html/GestorDeNotas.html" />
+    <mapID target="menuDeAplicacion" url="html/menuDeAplicacion.html" />
+</map>

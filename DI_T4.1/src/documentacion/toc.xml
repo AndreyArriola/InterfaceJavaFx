@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toc version="1.0">
+    <tocitem text ="Ayuda">
+        <tocitem text="Gestor de notas" target="GestorDeNotas"/>
+        <tocitem text="Menu de aplicacion" target="menuDeAplicacion"/>
+    </tocitem>
+    </tocitem>
+</toc>

@@ -1,0 +1,129 @@
+/*Fondo para el menú de barra*/
+.menubar,
+.menubar .menu,
+.menubar .menu-item{
+    -fx-background-color:#3c4354;  
+    -fx-font-weight:bold; 
+}
+
+/*iconos menú*/
+.menuitemsalir .label {-fx-graphic: url("/Recursos/salir26W.png");}
+.menuitemsalir .accelerator-text{-fx-graphic: none;}
+
+.menuitemnueva .label {-fx-graphic: url("/Recursos/nuevo26W.png");}
+.menuitemnueva .accelerator-text{-fx-graphic: none;}
+
+.menuitemacercade .label {-fx-graphic: url("/Recursos/info26W.png");}
+.menuitemacercade .accelerator-text{-fx-graphic: none;}
+
+/*.panel {-fx-background-image: url("/Recursos/fondo6.jpg");}*/
+
+
+
+.menubar .menu .label{
+    
+    -fx-text-fill:#9BA1A7
+} 
+
+.menubar .menu .label:hover,
+.menubar .menu-item:hover,
+.menubar .menu-item:hover .label:hover{
+    -fx-text-fill: #fff; 
+   
+    -fx-background-color: #515a71;
+}
+ 
+.menubar .menu:hover{
+    -fx-background-color: #515a71;
+    -fx-text-fill: #fff;
+}
+
+   
+
+
+
+.tableview{
+    -fx-border-width: 0px;
+    -fx-background-insets: 0;
+}
+    
+
+.textfield{
+    -fx-padding: 5px;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-border-color:#A0A8BC
+    
+}
+
+.column-header-background .column-header{    
+    -fx-background-color: #515A71;
+}
+
+/*Botón*/
+.button{    
+    -fx-background-color: #3673AB;    
+    -fx-text-fill: #fff;    
+    -fx-font-weight: bold;    
+    -fx-border-radius: 0;    
+    -fx-padding: 10px 20px 10px 20px;
+}
+    
+.button:hover, .button:pressed{    
+    -fx-background-color: #206696;
+}
+
+.button .label{    
+    -fx-text-fill: #fff;
+}
+
+/*cabecera tabla*/
+.tableview .column-header .label{    
+    -fx-text-fill: #fff;    
+    -fx-padding: 10px;
+} 
+
+.tableview{
+    -fx-border-radius: 5px;
+    -fx-border-width: 5;
+    -fx-border-style: solid;
+    -fx-border-color: #515a71 ;
+    -fx-background-color: whitesmoke;
+}
+
+/* color de una fila cuando en raton se encuentra sobre la misma  */
+.tableview:row-selection .table-row-cell:filled:hover { 
+    -fx-background-color: rgba(28, 183, 236, 0.25);
+}
+
+
+/* color de una fila cuando en raton se encuentra sobre una fila que esta seleccionada*/
+.tableview:row-selection .table-row-cell:filled:selected:hover { 
+    -fx-background-color: rgba(228, 183, 236, 0.90);
+}
+
+/* eliminar border del table que aparece cuando el mismo tiene el foco*/
+.tableview, .tableview:focused {
+  -fx-background-color: transparent,-fx-box-border,-fx-control-inner-background;
+  -fx-background-insets: -1.4, 0, 1;
+  -fx-background-radius: 1.4, 0, 0;
+}
+
+/* color de fondo del titulo de columna cuando en roton esta sobre ella*/
+.tableview .column-header:hover {
+    -fx-background-color:#206696;
+}
+
+/*labeltext*/
+.labeltext{
+    
+    -fx-text-fill: #515A71;
+    -fx-padding: 10px;    
+    -fx-font-weight: bold; 
+    -fx-padding: 10px;   
+    -fx-background-insets: 10px;    
+   
+   
+}
+
+
